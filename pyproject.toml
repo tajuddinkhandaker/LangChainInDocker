@@ -1,0 +1,15 @@
+[project]
+name = "langchain-in-docker"
+version = "0.1.0"
+description = "Demo project for uv and Docker multi-stage build"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain"
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv.build"
+
+[tool.uv.extra-build-dependencies]
+langchain-in-docker = ["setuptools"]
