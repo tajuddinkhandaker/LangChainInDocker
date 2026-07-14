@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Demo project for uv and Docker multi-stage build"
 requires-python = ">=3.12"
 dependencies = [
-    "langchain"
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "langchain>=0.3.27",
+    "langchain-ollama>=0.3.6",
+    "langchain-openai>=0.3.30",
+    "python-dotenv>=1.1.1",
 ]
 
 [build-system]
